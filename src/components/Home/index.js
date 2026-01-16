@@ -110,7 +110,6 @@ export default class Home extends Component {
 
   renderVideoSuccessView = () => {
     const {videosData} = this.state
-    // console.log(videosData)
     return (
       <VideosList>
         {videosData.map(eachVideo => (

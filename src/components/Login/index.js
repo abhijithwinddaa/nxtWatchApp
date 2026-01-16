@@ -123,7 +123,7 @@ export default class Login extends Component {
             </Label>
           </ShowPasswordContainer>
           <Label theme="true">Username:rahul Password:rahul@2021</Label>
-          <LoginButton type="submit"> Login</LoginButton>
+          <LoginButton type="submit">Login</LoginButton>
 
           {showError ? <ErrorMessage>*{showErrorMsg}</ErrorMessage> : ''}
         </LoginCardForm>
